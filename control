@@ -1,0 +1,9 @@
+Package: com.sky1738.disableytvideozoom
+Name: DisableYTVideoZoom
+Version: 0.0.1
+Architecture: iphoneos-arm
+Description: An awesome MobileSubstrate tweak!
+Maintainer: Sky1738
+Author: Sky1738
+Section: Tweaks
+Depends: mobilesubstrate (>= 0.9.5000)
