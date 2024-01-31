@@ -1,8 +1,5 @@
-%hook YTVideoFreeZoomOverlayView
-
-- (void)setEnabled:(bool)arg1{
-    arg1 = 0;
-    return %orig;
+%hook YTMainAppVideoPlayerOverlayViewController
+- (bool)isZoomEnabled {
+    return 0;
 }
-
 %end
